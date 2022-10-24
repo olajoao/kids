@@ -9,8 +9,8 @@
       <div class="flex items-center justify-between flex-1">
         <CategoryShortcut
           v-for="(categorie, index) in categories"
-          :key="index"
-          :name="categorie"
+          :key="categorie.id"
+          :name="categorie.name"
         >
           <BoltIcon v-if="index === 0" class="w-5 h-5 lg:w-6 lg:h-6" />
           <TicketIcon v-if="index === 1" class="w-5 h-5 lg:w-6 lg:h-6" />

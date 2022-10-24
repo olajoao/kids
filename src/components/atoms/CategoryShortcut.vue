@@ -2,7 +2,7 @@
   <router-link to="/">
     <div class="flex items-center gap-2">
       <slot />
-      <span class="text-sm font-medium text-dark-brown capitalize">
+      <span class="text-sm font-medium text-dark-brown">
         {{ name }}
       </span>
     </div>

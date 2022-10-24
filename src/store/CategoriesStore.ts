@@ -10,7 +10,7 @@ export const useCategoriesStore = defineStore("useCategoriesStore", {
 
   actions: {
     async all() {
-      const { data } = await request.get("/products/categories")
+      const { data } = await request.get("/categories")
 
       this.categories = data
     },

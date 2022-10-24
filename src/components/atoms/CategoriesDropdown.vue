@@ -5,12 +5,12 @@
     <div class="flex flex-col">
       <router-link
         to="/"
-        v-for="(categorie, index) in categories"
-        :key="index"
+        v-for="categorie in categories"
+        :key="categorie.id"
         class="py-3 px-5 hover:bg-light-brown/20"
       >
         <span class="capitalize font-medium text-dark-brown tracking-wider">
-          {{ categorie }}
+          {{ categorie.name }}
         </span>
       </router-link>
     </div>
