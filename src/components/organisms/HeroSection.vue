@@ -1,7 +1,7 @@
 <template>
   <section class="bg__hero 2xl:h-[60vh] w-full">
     <div class="bg-main-white/90 w-full h-full">
-      <div class="container mx-auto flex py-14 gap-x-10 h-full">
+      <div class="container mx-auto flex flex-col lg:flex-row px-4 lg:px-0 py-14 gap-y-4 lg:gap-y-0 gap-x-10 h-full">
         <HeroCard
           class="w-full max-w-md"
           :card="{

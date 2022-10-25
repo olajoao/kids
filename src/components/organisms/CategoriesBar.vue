@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto hidden lg:block">
     <div class="flex items-center gap-10 my-5">
       <div class="relative group">
         <CategoriesButton />

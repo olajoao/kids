@@ -10,7 +10,7 @@
 
 @layer components {
     .title-default {
-        @apply text-4xl font-medium tracking-wider leading-tight
+        @apply text-2xl lg:text-4xl font-medium tracking-wider leading-tight
     }
     .cta-default {
         @apply ring-1 ring-dark-brown text-dark-brown hover:text-white hover:bg-dark-brown font-medium text-xs lg:text-sm capitalize text-center w-max px-6 py-2 rounded flex items-center gap-x-2

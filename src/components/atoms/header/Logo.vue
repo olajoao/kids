@@ -2,7 +2,7 @@
   <router-link to="/">
     <div class="flex flex-col">
       <h1
-        class="font-sans tracking-widest text-2xl 2xl:text-3xl uppercase font-medium text-dark-brown"
+        class="font-sans tracking-widest text-lg lg:text-2xl 2xl:text-3xl uppercase font-medium text-dark-brown"
       >
         openmart
       </h1>

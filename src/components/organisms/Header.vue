@@ -1,6 +1,6 @@
 <template>
   <header class="py-8 border-b border-b-main-gray/60">
-    <div class="container mx-auto flex items-center justify-between">
+    <div class="container mx-auto flex items-center justify-between px-5 lg:px-0">
       <Logo />
       <SearchBar class="max-w-lg w-full" />
       <div class="flex gap-8 items-center">

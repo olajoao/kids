@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative hidden lg:block">
     <input
       type="text"
       class="pr-12 py-2 pl-3 rounded-md shadow-sm shadow-light-brown/30 w-full border border-light-brown/30 focus:border-light-brown/50 outline-none"
