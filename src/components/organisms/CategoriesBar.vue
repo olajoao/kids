@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <div class="flex items-center gap-10 my-3">
+    <div class="flex items-center gap-10 my-5">
       <div class="relative group">
         <CategoriesButton />
         <CategoriesDropdown />

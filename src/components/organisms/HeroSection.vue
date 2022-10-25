@@ -1,22 +1,22 @@
 <template>
-  <section class="bg__hero 2xl:h-[50vh] w-full">
+  <section class="bg__hero 2xl:h-[60vh] w-full">
     <div class="bg-main-white/90 w-full h-full">
-      <div class="container mx-auto flex py-10 gap-x-10 h-full">
+      <div class="container mx-auto flex py-14 gap-x-10 h-full">
         <HeroCard
           class="w-full max-w-md"
           :card="{
             text: 'Lorem ipsum dolor sit amet consectum',
-            colors: 'bg-main-gray shadow-dark-brown/30  text-dark-brown'
+            colors: 'bg-white text-dark-brown'
           }"
-          ctaText="Find course"
+          ctaText="Encontrar curso"
         />
         <HeroCard
           class="flex-1"
           :card="{
             text: 'How i met your mother',
-            colors: 'bg-dark-gray  shadow-dark-brown/30  text-main-white'
+            colors: 'bg-main-white text-dark-brown'
           }"
-          ctaText="Discover everything"
+          ctaText="Explorar mais"
         />
       </div>
     </div>

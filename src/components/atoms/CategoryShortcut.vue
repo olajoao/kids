@@ -1,8 +1,8 @@
 <template>
-  <router-link to="/">
-    <div class="flex items-center gap-2">
+  <router-link class="last:hidden 2xl:last:flex" to="/">
+    <div class="items-center gap-2 flex text-dark-brown hover:text-dark-gray">
       <slot />
-      <span class="text-sm font-medium text-dark-brown">
+      <span class="text-sm font-medium ">
         {{ name }}
       </span>
     </div>
